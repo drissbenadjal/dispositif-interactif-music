@@ -1,0 +1,19 @@
+.searchWrapper {
+  input {
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+
+    background-color: #454545ee;
+    border: none;
+    text-transform: uppercase;
+    outline: none;
+    padding: 10px;
+
+    letter-spacing: 0.5px;
+    color: white;
+  }
+}

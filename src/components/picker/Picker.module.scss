@@ -1,0 +1,40 @@
+.picker {
+  position: fixed;
+  top: 24px;
+  left: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #1f1f1f;
+  backdrop-filter: blur(5px);
+  padding: 5px 10px;
+  border-radius: 7px;
+
+  .active {
+    opacity: 1;
+    background-color: #454545ee;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 24px;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    opacity: .8;
+    background-color: transparent;
+    font-size: 1.2rem;
+    transition: opacity 0.25s, background-color 0.25s;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
